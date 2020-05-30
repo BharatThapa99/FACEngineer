@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.signinbox {
+    width: 400px;
+    height: 500px;
+    background: rgba(0 ,0, 0, .9);
+    color:#fff;
+    top: 50%;
+    left: 35%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 15px;
+}
+.signinbox h1{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.signinbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold
+    
+}
+.signinbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signinbox input[type="text"],input[type="email"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height:30px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.signinbox input[type="submit"]{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    height: 40px;
+    background: dodgerblue;
+    color: #fff;
+}
+.signinbox input[type="submit"]:hover
+{
+    background: hotpink;
+    cursor: pointer;
+}
+.RightBox{
+    width: 400px;
+    height: 500px;
+    background: rgba(0 ,0, 0, .9);
+    color:#fff;
+    top: 50%;
+    left: 65%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 15px;
+}
+.RightBox h1{
+    text-align:center;
+    padding: 5px;
+
+}
+.RightBox button{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    height: 40px;
+    background: dodgerblue;
+    color: #fff;
+    width: 100%;
+    
+}
+.RightBox button[class="facebook"],button[class="twitter"],button[class="gmail"]{
+    padding:15px;
+    margin-bottom: 20px;
+    
+}
+.RightBox button[class="facebook"]:hover,button[class="twitter"]:hover,button[class="gmail"]:hover{
+    background: hotpink;
+    cursor: pointer;
+    
+}
+.RightBox .atlast a{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 800;
+    color: darkgrey;
+    padding: 5px;
+  
+}
+.RightBox a:hover{
+    color:goldenrod;
+}
