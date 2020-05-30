@@ -1,5 +1,5 @@
 <title>
-	profile page
+	test profile page
 </title>
 <?php
 //include ('./inc/connect.inc.php');
