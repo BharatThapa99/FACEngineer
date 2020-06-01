@@ -1,6 +1,8 @@
 <?php
 $DIR = "/var/www/html/project/";
-include ($DIR.'/class/classgetter/classGetter.php');
+// include ($DIR.'/class/classgetter/classGetter.php');
+
+include 'inc/Autoloader.inc.php';
 $date = date('Y-m-d');
 
 
